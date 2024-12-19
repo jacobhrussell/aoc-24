@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -20,6 +21,8 @@ public class Main {
         InputStreamReader inputStreamReaderTwo = new InputStreamReader(inputStreamTwo);
         BufferedReader bufferedReaderTwo = new BufferedReader(inputStreamReaderTwo);
         inputTwo = bufferedReaderTwo.lines().toList();
+
+        
 
     }
 }
